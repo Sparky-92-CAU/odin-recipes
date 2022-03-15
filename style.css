@@ -1,4 +1,12 @@
+html,*{
+    border: 2px solid;
+    border-color: red;
+}
+
+
 body{
+
+
     background-color: hsl(189, 100%, 88%, .5);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
@@ -12,6 +20,7 @@ img{
 
 ul,ol{
     text-align: justify;
+    display: inline;
 }
 
 .beef{
